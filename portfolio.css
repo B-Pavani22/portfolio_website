@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  color: #007acc;
+}
+
+ul {
+  list-style-type: square;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 1rem;
+}
+/* Theme toggle button */
+#theme-toggle {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #007acc;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Dark mode styling */
+.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+
+.dark-mode header {
+  background-color: #222;
+}
+
+.dark-mode h2 {
+  color: #66d9ef;
+}
+
+.dark-mode footer {
+  background-color: #1a1a1a;
+}
